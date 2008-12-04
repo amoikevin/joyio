@@ -1,0 +1,19 @@
+#summary One-sentence summary of this page.
+#labels Featured
+
+= Introduction =
+
+数据引擎是什么？
+
+
+= Details =
+
+Add your content here.  Format your content with:
+
+搜索引擎离不开数据，海量的数据，我们需要一种方便，简单的部件来存储我们在搜索引擎运行时产生的各种数据，这些数据有临时性的，有永久性的，他们大部分都是若干字节的小数据，但是其总和却比一般的IT系统要大出许多倍。
+
+数据引擎就是这样一种存储机制，它给Joysearch的上层部件提供了尽可能高效的数据访问和存储机制，以便他们可以迅速获得他们想要的数据。
+
+准确的来说，JoyIO是单机版本的数据引擎，分布式的数据引擎，我们采用了Hadoop的子项目，HBase，以存储海量数据。
+
+JoyIO和HBase之间的同步，是我们下一个版本需要解决的问题。
